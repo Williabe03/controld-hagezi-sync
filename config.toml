@@ -1,6 +1,6 @@
 [settings]
 # Keep this true for the first workflow run to validate the imports.
-dry_run = true
+dry_run = false
 
 [profiles]
 names = ["Hagezi Lists"]
