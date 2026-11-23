@@ -1,9 +1,14 @@
 [settings]
-# Keep this true for the first workflow run to validate the imports.
 dry_run = false
 
 [profiles]
-names = ["Hagezi Lists"]
+names = [
+  "Nathan Stealth",
+  "Parents Single Profile",
+  "Router profile Home",
+  "Tailscale",
+  "Wealth Strategists"
+]
 
 [folders]
 "HaGeZi Referral Allow" = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/referral-allow-folder.json"
@@ -12,7 +17,35 @@ names = ["Hagezi Lists"]
 "HaGeZi Apple Private Relay Allow" = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/apple-private-relay-allow-folder.json"
 
 [profile_folders]
-"Hagezi Lists" = [
+"Nathan Stealth" = [
+  "HaGeZi Referral Allow",
+  "HaGeZi Spam TLDs",
+  "HaGeZi Badware Hoster",
+  "HaGeZi Apple Private Relay Allow"
+]
+
+"Parents Single Profile" = [
+  "HaGeZi Referral Allow",
+  "HaGeZi Spam TLDs",
+  "HaGeZi Badware Hoster",
+  "HaGeZi Apple Private Relay Allow"
+]
+
+"Router profile Home" = [
+  "HaGeZi Referral Allow",
+  "HaGeZi Spam TLDs",
+  "HaGeZi Badware Hoster",
+  "HaGeZi Apple Private Relay Allow"
+]
+
+"Tailscale" = [
+  "HaGeZi Referral Allow",
+  "HaGeZi Spam TLDs",
+  "HaGeZi Badware Hoster",
+  "HaGeZi Apple Private Relay Allow"
+]
+
+"Wealth Strategists" = [
   "HaGeZi Referral Allow",
   "HaGeZi Spam TLDs",
   "HaGeZi Badware Hoster",
