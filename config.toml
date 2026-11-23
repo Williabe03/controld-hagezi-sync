@@ -3,7 +3,7 @@
 dry_run = false
 
 [profiles]
-names = ["HageziLists"]
+names = ["Hagezi Lists"]
 
 [folders]
 "HaGeZi Referral Allow" = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/referral-allow-folder.json"
@@ -12,7 +12,7 @@ names = ["HageziLists"]
 "HaGeZi Apple Private Relay Allow" = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/apple-private-relay-allow-folder.json"
 
 [profile_folders]
-"HageziLists" = [
+"Hagezi Lists" = [
   "HaGeZi Referral Allow",
   "HaGeZi Spam TLDs",
   "HaGeZi Badware Hoster",
