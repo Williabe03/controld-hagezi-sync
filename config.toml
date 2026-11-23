@@ -1,4 +1,5 @@
 [settings]
+# Keep this true for the first workflow run to validate the imports.
 dry_run = true
 
 [profiles]
@@ -14,6 +15,6 @@ names = ["Hagezi Lists"]
 "Hagezi Lists" = [
   "HaGeZi Referral Allow",
   "HaGeZi Spam TLDs",
-  "HaGeZi Badware Hoster"
+  "HaGeZi Badware Hoster",
   "HaGeZi Apple Private Relay Allow"
 ]
